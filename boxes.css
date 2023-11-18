@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto' , sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row{
+    display: flex;
+    align-items: center;
+}
+
+.middle-row{
+    background-color: #161616;
+    display: flex;
+    align-items: center;}
+
+.bottom-row{
+    background-color: #202020;
+    display: flex;
+    align-items: center;}
+
+.top-row > .placeholder-image{
+    margin: 0px 20px 0px 0px;
+    background-image: url('images/human-holding-a-bread-745988.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31em;
+    height: 23em;
+    flex-shrink: 0;
+}
+
+.middle-row > .placeholder-image{
+    margin: 20px 0px 0px 20px;
+    background-image: url('images/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31em;
+    height: 23em;
+    flex-shrink: 0;
+}
+
+.bottom-row > .placeholder-image{
+    margin: 0px 20px 0px 0px;
+    background-image: url('images/cooked-pasta-on-brown-wooden-bowl-803963.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31em;
+    height: 23em;
+    flex-shrink: 0;
+}
+
+.text-content{
+    margin: 0 40px;
+}
+
+.text-content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.text-content p{
+    font-size: 22px;
+    font-weight: 100;
+}
